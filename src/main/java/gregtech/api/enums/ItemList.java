@@ -1607,6 +1607,8 @@ public enum ItemList implements IItemContainer {
     FusionComputer_ZPMV,
     FusionComputer_UV,
 
+    deleteThisIfItGetsMerged,
+
     Casing_Fusion_Coil,
     Casing_Fusion,
     Casing_Fusion2,

@@ -40,7 +40,7 @@ public class MTEFusionComputer1 extends MTEFusionComputer {
 
     @Override
     public long maxEUStore() {
-        return 160003000L * (Math.min(16, this.mEnergyHatches.size())) / 16L;
+        return 160_003_000L * (Math.min(16, this.mEnergyHatches.size())) / 16L;
     }
 
     @Override
