@@ -528,10 +528,12 @@ public final class GTGuiTextures {
     public static final UITexture PICTURE_FUSION_COMPUTER_MATERIAL_INJECTOR = fullImageGT("picture/fusion_computer_material_injector");
     public static final UITexture PICTURE_FUSION_COMPUTER_PLASMA_EXTRACTOR = fullImageGT("picture/fusion_computer_plasma_extractor");
     public static final UITexture PICTURE_FUSION_COMPUTER_ENERGY_INJECTOR = fullImageGT("picture/fusion_computer_energy_injector");
+    public static final UITexture PICTURE_FUSION_COMPUTER_MAINTENANCE = fullImageGT("picture/fusion_computer_maintenance");
     public static final UITexture PICTURE_FUSION_COMPUTER_HULLS_COIL = fullImageGT("picture/fusion_computer_hulls_coil");
     public static final UITexture PICTURE_FUSION_COMPUTER_CONTROLLER = fullImageGT("picture/fusion_computer_controller");
     public static final UITexture PICTURE_FUSION_COMPUTER_HULL = fullImageGT("picture/fusion_computer_hull");
     public static final UITexture PICTURE_FUSION_COMPUTER_YOU = fullImageGT("picture/fusion_computer_you");
+
     //spotless:on
 
     // endregion picture
