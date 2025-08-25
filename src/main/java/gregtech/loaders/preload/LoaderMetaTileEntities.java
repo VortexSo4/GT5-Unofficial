@@ -356,7 +356,8 @@ public class LoaderMetaTileEntities implements Runnable { // TODO CHECK CIRCUIT 
         ItemList.FusionComputer_LuV.set(
             new MTEFusionComputer1(FUSION_CONTROLLER_MKI.ID, "fusioncomputer.tier.06", "Fusion Control Computer Mark I")
                 .getStackForm(1L));
-        ItemList.deleteThisIfItGetsMerged.set(new MTEFusion1(12312, "123456789", "123456789").getStackForm(1L));
+        ItemList.deleteThisIfItGetsMerged
+            .set(new MTEFusion1(12312, "fusioncomputer.tier.06", "123456789").getStackForm(1L));
         ItemList.FusionComputer_ZPMV.set(
             new MTEFusionComputer2(
                 FUSION_CONTROLLER_MKII.ID,
