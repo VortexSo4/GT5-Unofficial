@@ -1,5 +1,6 @@
 package gregtech.api.enums;
 
+import java.util.Arrays;
 import java.util.Collections;
 
 public class MaterialsUEVplus {
@@ -899,6 +900,102 @@ public class MaterialsUEVplus {
             .setTransparent(false)
             .constructMaterial()
             .setProcessingMaterialTierEU(TierEU.RECIPE_MAX);
+
+    public static Materials NullEssence = new Materials(
+        571,
+        TextureSet.SET_FLUID,
+        1.0F,
+        0,
+        2,
+        16,
+        0,
+        0,
+        0,
+        0,
+        "null.essence",
+        "Null Essence",
+        -1,
+        -1,
+        0,
+        1,
+        false,
+        true,
+        1,
+        1,
+        1,
+        Dyes._NULL);
+
+    public static Materials OmegaMatter = new Materials(
+        572,
+        TextureSet.SET_FLUID,
+        1.0F,
+        0,
+        2,
+        16,
+        255,
+        255,
+        255,
+        0,
+        "omega.matter",
+        "Omega Matter",
+        -1,
+        -1,
+        0,
+        1,
+        false,
+        true,
+        1,
+        1,
+        1,
+        Dyes._NULL);
+
+    public static Materials Logos = new Materials(
+        573,
+        TextureSet.SET_FLUID,
+        1.0F,
+        0,
+        2,
+        16,
+        60,
+        0,
+        255,
+        0,
+        "logos",
+        "Logos",
+        -1,
+        -1,
+        0,
+        1,
+        false,
+        true,
+        1,
+        1,
+        1,
+        Dyes._NULL);
+
+    public static Materials MetaAbsolute = new Materials(
+        574,
+        TextureSet.SET_FLUID,
+        1.0F,
+        0,
+        2,
+        16,
+        255,
+        255,
+        0,
+        0,
+        "meta.absolute",
+        "Meta Absolute",
+        -1,
+        -1,
+        0,
+        1,
+        false,
+        true,
+        1,
+        1,
+        1,
+        Dyes._NULL);
 
     /**
      * called by Materials. Can be safely called multiple times. exists to allow Materials ensure this class is

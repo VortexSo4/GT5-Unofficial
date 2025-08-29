@@ -2065,6 +2065,11 @@ public class Materials implements IColorModulationContainer, ISubTagContainer {
         CertusQuartzCharged.mChemicalFormula = "SiO\u2082" + CustomGlyphs.HIGH_VOLTAGE;
         MaterialsUEVplus.SpaceTime.mChemicalFormula = "Reality itself distilled into physical form";
         MaterialsUEVplus.Universium.mChemicalFormula = "A tear into the space beyond space";
+        MaterialsUEVplus.NullEssence.mChemicalFormula = "§8§oNeither darkness nor light, nor even absence itself";
+        MaterialsUEVplus.OmegaMatter.mChemicalFormula = "§8§oFullness, containing all within itself";
+        MaterialsUEVplus.Logos.mChemicalFormula = "§8§oThe bridge across the void";
+        MaterialsUEVplus.MetaAbsolute.mChemicalFormula = "§8§oThe eternal play of Nothing, Everything, and Meaning";
+
         MaterialsUEVplus.Eternity.mChemicalFormula = "En\u29BC";
         MaterialsUEVplus.MagMatter.mChemicalFormula = "M\u238B";
         MaterialsUEVplus.RawStarMatter.mChemicalFormula = CustomGlyphs.GALAXY;
@@ -2772,6 +2777,10 @@ public class Materials implements IColorModulationContainer, ISubTagContainer {
         MaterialsUEVplus.ExoHalkonite.renderer = new InfinityRenderer();
         MaterialsUEVplus.HotExoHalkonite.renderer = new InfinityRenderer();
         Materials.PrismaticNaquadah.renderer = new RainbowOverlayRenderer(Materials.PrismaticNaquadah.getRGBA());
+        MaterialsUEVplus.NullEssence.renderer = new GlitchEffectRenderer();
+        MaterialsUEVplus.OmegaMatter.renderer = new GlitchEffectRenderer();
+        MaterialsUEVplus.Logos.renderer = new CosmicNeutroniumRenderer();
+        MaterialsUEVplus.MetaAbsolute.renderer = new InfinityRenderer();
     }
 
     private static void fillGeneratedMaterialsMap() {

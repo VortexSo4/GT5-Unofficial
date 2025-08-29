@@ -675,6 +675,46 @@ public enum OrePrefixes {
         frame.mNotGeneratedItems.add(MaterialsUEVplus.Universium);
         frameGt.mNotGeneratedItems.add(MaterialsUEVplus.Universium);
 
+        cell.mNotGeneratedItems.add(MaterialsUEVplus.NullEssence);
+        turbineBlade.mNotGeneratedItems.add(MaterialsUEVplus.NullEssence);
+        dust.mNotGeneratedItems.add(MaterialsUEVplus.NullEssence);
+        dustSmall.mNotGeneratedItems.add(MaterialsUEVplus.NullEssence);
+        dustTiny.mNotGeneratedItems.add(MaterialsUEVplus.NullEssence);
+        spring.mNotGeneratedItems.add(MaterialsUEVplus.NullEssence);
+        springSmall.mNotGeneratedItems.add(MaterialsUEVplus.NullEssence);
+        nugget.mNotGeneratedItems.add(MaterialsUEVplus.NullEssence);
+        itemCasing.mNotGeneratedItems.add(MaterialsUEVplus.NullEssence);
+
+        cell.mNotGeneratedItems.add(MaterialsUEVplus.OmegaMatter);
+        turbineBlade.mNotGeneratedItems.add(MaterialsUEVplus.OmegaMatter);
+        dust.mNotGeneratedItems.add(MaterialsUEVplus.OmegaMatter);
+        dustSmall.mNotGeneratedItems.add(MaterialsUEVplus.OmegaMatter);
+        dustTiny.mNotGeneratedItems.add(MaterialsUEVplus.OmegaMatter);
+        spring.mNotGeneratedItems.add(MaterialsUEVplus.OmegaMatter);
+        springSmall.mNotGeneratedItems.add(MaterialsUEVplus.OmegaMatter);
+        nugget.mNotGeneratedItems.add(MaterialsUEVplus.OmegaMatter);
+        itemCasing.mNotGeneratedItems.add(MaterialsUEVplus.OmegaMatter);
+
+        cell.mNotGeneratedItems.add(MaterialsUEVplus.Logos);
+        turbineBlade.mNotGeneratedItems.add(MaterialsUEVplus.Logos);
+        dust.mNotGeneratedItems.add(MaterialsUEVplus.Logos);
+        dustSmall.mNotGeneratedItems.add(MaterialsUEVplus.Logos);
+        dustTiny.mNotGeneratedItems.add(MaterialsUEVplus.Logos);
+        spring.mNotGeneratedItems.add(MaterialsUEVplus.Logos);
+        springSmall.mNotGeneratedItems.add(MaterialsUEVplus.Logos);
+        nugget.mNotGeneratedItems.add(MaterialsUEVplus.Logos);
+        itemCasing.mNotGeneratedItems.add(MaterialsUEVplus.Logos);
+
+        cell.mNotGeneratedItems.add(MaterialsUEVplus.MetaAbsolute);
+        turbineBlade.mNotGeneratedItems.add(MaterialsUEVplus.MetaAbsolute);
+        dust.mNotGeneratedItems.add(MaterialsUEVplus.MetaAbsolute);
+        dustSmall.mNotGeneratedItems.add(MaterialsUEVplus.MetaAbsolute);
+        dustTiny.mNotGeneratedItems.add(MaterialsUEVplus.MetaAbsolute);
+        spring.mNotGeneratedItems.add(MaterialsUEVplus.MetaAbsolute);
+        springSmall.mNotGeneratedItems.add(MaterialsUEVplus.MetaAbsolute);
+        nugget.mNotGeneratedItems.add(MaterialsUEVplus.MetaAbsolute);
+        itemCasing.mNotGeneratedItems.add(MaterialsUEVplus.MetaAbsolute);
+
         cell.mNotGeneratedItems.add(MaterialsUEVplus.MagnetohydrodynamicallyConstrainedStarMatter);
         turbineBlade.mNotGeneratedItems.add(MaterialsUEVplus.MagnetohydrodynamicallyConstrainedStarMatter);
         dust.mNotGeneratedItems.add(MaterialsUEVplus.MagnetohydrodynamicallyConstrainedStarMatter);

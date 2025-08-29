@@ -1481,6 +1481,42 @@ public class LoaderGTBlockFluid implements Runnable {
                 GTOreDictUnificator.get(OrePrefixes.cell, MaterialsUEVplus.Protomatter, 1L),
                 ItemList.Cell_Empty.get(1L));
 
+        GTFluidFactory.builder("null.essence")
+            .withLocalizedName(MaterialsUEVplus.NullEssence.mLocalizedName)
+            .withStateAndTemperature(LIQUID, -1)
+            .buildAndRegister()
+            .configureMaterials(MaterialsUEVplus.NullEssence)
+            .registerBContainers(
+                GTOreDictUnificator.get(OrePrefixes.cell, MaterialsUEVplus.NullEssence, 1L),
+                ItemList.Cell_Empty.get(1L));
+
+        GTFluidFactory.builder("omega.matter")
+            .withLocalizedName(MaterialsUEVplus.OmegaMatter.mLocalizedName)
+            .withStateAndTemperature(LIQUID, 1_000_000)
+            .buildAndRegister()
+            .configureMaterials(MaterialsUEVplus.OmegaMatter)
+            .registerBContainers(
+                GTOreDictUnificator.get(OrePrefixes.cell, MaterialsUEVplus.OmegaMatter, 1L),
+                ItemList.Cell_Empty.get(1L));
+
+        GTFluidFactory.builder("logos")
+            .withLocalizedName(MaterialsUEVplus.Logos.mLocalizedName)
+            .withStateAndTemperature(LIQUID, 0)
+            .buildAndRegister()
+            .configureMaterials(MaterialsUEVplus.Logos)
+            .registerBContainers(
+                GTOreDictUnificator.get(OrePrefixes.cell, MaterialsUEVplus.Logos, 1L),
+                ItemList.Cell_Empty.get(1L));
+
+        GTFluidFactory.builder("meta.absolute")
+            .withLocalizedName(MaterialsUEVplus.MetaAbsolute.mLocalizedName)
+            .withStateAndTemperature(LIQUID, Integer.MAX_VALUE)
+            .buildAndRegister()
+            .configureMaterials(MaterialsUEVplus.MetaAbsolute)
+            .registerBContainers(
+                GTOreDictUnificator.get(OrePrefixes.cell, MaterialsUEVplus.MetaAbsolute, 1L),
+                ItemList.Cell_Empty.get(1L));
+
         GTFluidFactory.builder("plasma.infinity")
             .withLocalizedName("Infinity Plasma")
             .withStateAndTemperature(PLASMA, 10000)
